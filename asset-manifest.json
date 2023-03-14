@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.df7e36ff.css",
-    "main.js": "/react-portfolio/static/js/main.db950a81.js",
+    "main.js": "/react-portfolio/static/js/main.e06ff5e3.js",
     "static/media/benito.png": "/react-portfolio/static/media/benito.5c2e6c726c35c626d77c.png",
     "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.11b9fbc8513a27949899.png",
     "static/media/do.svg": "/react-portfolio/static/media/do.3ecb625b75ec64be4376.svg",
@@ -290,10 +290,10 @@
     "static/media/de.svg": "/react-portfolio/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/react-portfolio/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "main.df7e36ff.css.map": "/react-portfolio/static/css/main.df7e36ff.css.map",
-    "main.db950a81.js.map": "/react-portfolio/static/js/main.db950a81.js.map"
+    "main.e06ff5e3.js.map": "/react-portfolio/static/js/main.e06ff5e3.js.map"
   },
   "entrypoints": [
     "static/css/main.df7e36ff.css",
-    "static/js/main.db950a81.js"
+    "static/js/main.e06ff5e3.js"
   ]
 }
