@@ -1,0 +1,99 @@
+.projectsContainer {
+  width: 100%;
+  min-height: 130vh;
+  background: linear-gradient(90deg, #28313b, #485461);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 10%;
+}
+
+.cardContainer1 {
+  margin: 30px;
+  margin-top: 20%;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 200px auto 90px;
+  grid-template-areas: "image" "text" "stats";
+  font-family: "Roboto", sans-serif;
+  border-radius: 18px;
+  background: #fffdfa;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transform-style: preserve-3d;
+  transform: 1000px;
+  cursor: pointer;
+}
+
+.card-image {
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+  transform: translateZ(30px);
+}
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+.card-stats {
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #3586ff;
+}
+
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 10px; */
+  color: #fff;
+  border-top: 2px solid black;
+}
+
+.card-stats .type {
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+.card-stats .value {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#border {
+  border-left: 1px solid black;
+}
+.aLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+:hover {
+  color: var(--hover-color);
+}

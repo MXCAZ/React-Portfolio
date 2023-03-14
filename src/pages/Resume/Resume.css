@@ -1,0 +1,96 @@
+.resumeContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #28313b, #485461);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.skillsTitle {
+  color: #3586ff;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  margin-bottom: 60px;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 900px) {
+  .skillsTitle {
+    margin-top: 25%;
+  }
+
+  .downloadContainer {
+    padding-bottom: 15%;
+  }
+}
+
+.cardResume {
+  width: auto;
+  font-family: "Roboto", sans-serif;
+  background: white;
+  text-align: center;
+  padding: 40px;
+  margin: 50px;
+}
+.motion {
+  width: 300px;
+  margin: 20px;
+}
+.skillsList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skillsImage {
+  width: 70px;
+  height: 70px;
+}
+
+.skills {
+  margin: 15px;
+  transition: 0.5s;
+}
+
+.skills:hover {
+  transform: translateY(-15px);
+}
+
+.skillsAnimationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.downloadContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10%;
+}
+
+.resume {
+  color: #fff;
+  font-size: 50px;
+}
+
+.download-btn {
+  background: dodgerblue;
+  color: #fff;
+  padding: 1rem 2rem;
+
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.download-btn:hover {
+  background: royalblue;
+}

@@ -1,0 +1,48 @@
+.homeContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #28313b, #485461);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 5vw, 5rem);
+  color: #fff;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+.welcome:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+}
+.name,
+.name1 {
+  font-family: "Press Start 2P", cursive;
+  padding-left: 15px;
+}
+
+.name1 {
+  margin-top: 15px;
+  color: #3586ff;
+  font-size: 25px;
+}
+
+.text {
+  margin-top: 40px;
+  right: 0;
+  text-align: end;
+  padding-right: 15px;
+}
+
+.color {
+  color: #fff;
+  font-size: 30;
+}
