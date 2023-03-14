@@ -1,5 +1,4 @@
 {
-  "homepage": "http://MXCAZ.github.io/react-portfolio/#",
   "name": "francisco",
   "version": "0.1.0",
   "private": true,
@@ -9,9 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.10.3",
-    "flag-icon-css": "^4.1.7",
-    "flag-icons": "^6.6.6",
     "framer-motion": "^10.0.0",
     "i18next": "^22.4.11",
     "i18next-browser-languagedetector": "^7.0.1",
