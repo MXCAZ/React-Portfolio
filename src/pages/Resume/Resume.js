@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import "./Resume.css";
 import { motion } from "framer-motion";
-import resume from "./image/react.ico";
+import resume from "./image/francisco-resume.pdf";
 import { useTranslation } from "react-i18next";
 
 const Resume = () => {
@@ -235,7 +235,7 @@ const Resume = () => {
           <h2 className="resume">{t("resume1")}</h2>
           <br />
           <br />
-          <a href={resume} download="react" className="download-btn">
+          <a href={resume} download="resume" className="download-btn">
             {t("download")} <i className="fa fa-download"></i>
           </a>
         </div>
