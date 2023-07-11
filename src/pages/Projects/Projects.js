@@ -13,6 +13,16 @@ const Projects = () => {
   const { t } = useTranslation();
   const projects = [
     {
+      id: 4,
+      title: "E-commerce restaurant website",
+      languages: "HTML, CSS, Javascript, React",
+      packages: " Express, Vite, Mongo, Framer Mui, Framer Motion",
+      image: new URL("./images/homePage.png", import.meta.url),
+      description: `${t("description4")}`,
+      repo: "https://github.com/MXCAZ/tacosLosPanchosExample",
+      site: "https://tacoslospanchosexample-4b92243c5b07.herokuapp.com/",
+    },
+    {
       id: 0,
       title: "Twytter",
       languages: "HTML, CSS, Javascript, Handlebars",
@@ -62,6 +72,7 @@ const Projects = () => {
       glare: true,
       reverse: true,
       "max-glare": 0.5,
+      scale: 1.2,
     });
   };
   return (
@@ -75,10 +86,14 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="cardContainer1">
             <Tilt
+              options={{ scale: 2 }}
               style={{
                 width: "auto",
                 transformStyle: "preserve-3d",
-                transform: "perspective(1000px",
+                transform: "perspective(1000px)",
+                scale: 1.2,
+                speed: 1000,
+                max: 30,
               }}>
               <div className="card1" onMouseOver={glare}>
                 <div

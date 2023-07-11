@@ -22,6 +22,7 @@
   "description1": "Una applicacion que usa un API para ver el clima en una ciudad en especifico por los proximos 7 dias",
   "description2": "Cuando un usuario pone el nombre de un artista va mostrar los ultimos 3 cociertos de ese artista sus fechas, precio y el link para comprar los boletos de sus respectivos artistas tambien mostrara una opcion para mostrar informacion de los artistas",
   "description3": "Esta applicacion es un editor de texto y agrega la funcionalidad para trabajar como PWA (Progressive Web App) y funciona offline se puede descargar en tu computadora para usarla sin internet",
+  "description4": "Este sitio web proporciona una plataforma para que los usuarios exploren una variedad de platilos que ofrece el restaurante. Los usuarios pueden ver el menú, consultar las descripciones de los platos y buscar imágenes de los platos disponibles. Además, el sitio web permite a los usuarios realizar pedidos en línea tanto para llevar como para cenar. El sitio web también incluye una página de administración que proporciona acceso a la gestión de pedidos, lo que permite a los administradores ver y procesar los pedidos de los clientes.",
   "repo": "Ver repo",
   "live_site": "Ve la pagina en vivo!"
 }

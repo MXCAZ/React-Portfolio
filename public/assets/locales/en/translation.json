@@ -22,6 +22,7 @@
   "description1": "An app that use an a weather API to find the weather on a specific city the next seven days of the week",
   "description2": "When a user puts in the name of an artist, it will return a list of up to three of their upcoming concerts, the dates, cities, venues, average price, and a link to buy tickets. You can also learn more about the artist by clicking a button.",
   "description3": "This application takes an existing text editor app and adds functionality for it to work as a PWA (Progressive Web App) and function online. This application its deployed to heroku and also functions offline.",
+  "description4": "The website provides a platform for users to explore a variety of dishes offered by the restaurant. Users can view the menu, check out dish descriptions, and browse pictures of the available plates. Additionally, the website allows users to place online orders for both takeout and dine-in options. The website also includes an admin page that provides access to order management, allowing administrators to view and process customer orders.",
   "repo": "See the repo",
   "live_site": "See the live site!"
 }
