@@ -14,7 +14,7 @@ const Projects = () => {
   const projects = [
     {
       id: 4,
-      title: "E-commerce restaurant website",
+      title: "E-commerce Restaurant Website",
       languages: "HTML, CSS, Javascript, React",
       packages: " Express, Vite, Mongo, Framer Mui, Framer Motion",
       image: new URL("./images/homePage.png", import.meta.url),
