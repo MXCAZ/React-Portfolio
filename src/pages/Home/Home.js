@@ -95,7 +95,7 @@ const Home = () => {
                 className="welcome"
                 data-value="Web-Developer"
                 onMouseOver={(e) => changeLetters(e.target)}>
-                ASDFASADSSVXND{" "}
+                ASDFASADSSVXDD{" "}
               </h2>
             </div>
             <div className="secondWelcome">
