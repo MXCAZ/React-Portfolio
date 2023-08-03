@@ -58,12 +58,12 @@ const Navbar = () => {
               {t("projects")}
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/Contact" className="nav-links">
               <i className=" fa-solid fa-address-book"></i>
               {t("contact")}
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="/Resume" className="nav-links">
               <i className=" fa-solid fa-folder-open"></i>

@@ -1,5 +1,5 @@
 {
-  "salute": "Hi",
+  "salute": " 👋  Hi",
   "present": "I'm Francisco Sanchez",
   "home": "HOME",
   "about": "ABOUT",
@@ -8,8 +8,8 @@
   "resume": "RESUME",
   "p1": "I am a Front-end developer who loves building full-stack applications & learning new technologies. I just graduate from the University of Utah Full Stack Coding Bootcamp!",
   "p2": "In my free time, i enjoy reading books and articles on a wide range of topics, from science and technology to history and philosophy",
-  "p3": "Currently, I'm focused on learning something new every day and enjoying the moment",
-  "p4": "Feel free to drag the cloud around the screen",
+  "p3": "Currently, I'm focused on learning something new every day and enjoying the moment and yes i love my dog i don't know if you notice that.",
+  "p4": "(Interactive cloud element: Please drag the cloud around the screen!)",
   "contact_me": "Contact Me",
   "name": "Name",
   "type_message": "type your message here....",
@@ -24,5 +24,15 @@
   "description3": "This application takes an existing text editor app and adds functionality for it to work as a PWA (Progressive Web App) and function online. This application its deployed to heroku and also functions offline.",
   "description4": "The website provides a platform for users to explore a variety of dishes offered by the restaurant. Users can view the menu, check out dish descriptions, and browse pictures of the available plates. Additionally, the website allows users to place online orders for both takeout and dine-in options. The website also includes an admin page that provides access to order management, allowing administrators to view and process customer orders.",
   "repo": "See the repo",
-  "live_site": "See the live site!"
+  "live_site": "See the live site!",
+  "language": "En",
+  "badge": "Full-Stack  with Javascript",
+  "badge2": "Developer",
+  "badge3": "with",
+  "badge4": "Javascript",
+  "Marzo": "March-2023",
+  "Projects": "My projects",
+  "pDescription": " Click here you can find some of my best projects",
+  "Github": "My Github profile, where i upload my projects",
+  "mAbout": "More about Me"
 }

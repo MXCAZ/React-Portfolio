@@ -11,12 +11,12 @@
 .animateSquare {
   background: linear-gradient(90deg, #28313b, #485461);
   border-radius: 18px;
-  padding: 150px;
+  padding: 140px;
 }
 
-.containerContact form {
-  width: 670px;
-  height: 400px;
+.fifthContainer form {
+  width: 770px;
+  height: 320px;
   display: flex;
   justify-content: center;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -27,8 +27,9 @@
 }
 
 @media screen and (max-width: 900px) {
-  .containerContact form {
+  .fifthContainer form {
     width: 400px;
+    height: 400px;
   }
 
   h4 {
@@ -40,7 +41,7 @@
   }
 }
 
-.containerContact form h2 {
+.fifthContainer form h2 {
   color: black;
   font-weight: 500;
   margin-top: 20px;
@@ -48,7 +49,7 @@
   text-align: center;
 }
 
-.containerContact form input {
+.fifthContainer form input {
   width: 290px;
   height: 40px;
   padding-left: 10px;
@@ -59,22 +60,22 @@
   background: none;
   border-bottom: 2px solid #fff;
 }
-.containerContact form input::placeholder {
+.fifthContainer form input::placeholder {
   color: black;
 }
 
-.containerContact form #email {
+.fifthContainer form #email {
   margin-left: 20px;
 }
 
-.containerContact form h4 {
+.fifthContainer form h4 {
   color: black;
   font-weight: 300;
   width: 600px;
   margin-top: 20px;
 }
 
-.containerContact form textarea {
+.fifthContainer form textarea {
   background: none;
   border: none;
   border-bottom: 2px solid #fff;
@@ -92,7 +93,7 @@
 textarea::-webkit-scrollbar-thumb {
   background-color: rgba(194, 194, 194, 0.713);
 }
-.containerContact form #button {
+.fifthContainer form #button {
   border: none;
   color: #fff;
   background: #08071d;
@@ -103,7 +104,7 @@ textarea::-webkit-scrollbar-thumb {
   padding: 0;
 }
 
-.containerContact form #button:hover {
+.fifthContainer form #button:hover {
   color: #08071d;
   background: #fff;
 }

@@ -1,5 +1,5 @@
 {
-  "salute": "Hola",
+  "salute": "👋  Hola",
   "present": "Soy Francisco Sanchez",
   "home": "INICIO",
   "about": "ACERCA",
@@ -9,7 +9,7 @@
   "p1": "Actualmente me especializo Front-End Developer me encanta construir aplicaciones full stack y aprender nuevas tecnologias. Me acabo de graduar del curso de Codigo Full Stack de la Universidad de Utah",
   "p2": "En mi tiempo libre disfruto de leer libros y articulos en una gran variedad de temas como lo son de ciencia, tecnologia, historia y filosofia",
   "p3": "Hoy en dia trato de aprender algo nuevo cada dia y disfrutar del momento",
-  "p4": "Te invito a seleccionar la nueve  y arrastrar la nube por la pantalla ",
+  "p4": "La nube es un elemento interactivo arrastrala alrededor de la pantalla ",
   "contact_me": "Contactame",
   "name": "Nombre",
   "type_message": "Escribe tu mensaje aqui .......",
@@ -24,5 +24,15 @@
   "description3": "Esta applicacion es un editor de texto y agrega la funcionalidad para trabajar como PWA (Progressive Web App) y funciona offline se puede descargar en tu computadora para usarla sin internet",
   "description4": "Este sitio web proporciona una plataforma para que los usuarios exploren una variedad de platilos que ofrece el restaurante. Los usuarios pueden ver el menú, consultar las descripciones de los platos y buscar imágenes de los platos disponibles. Además, el sitio web permite a los usuarios realizar pedidos en línea tanto para llevar como para cenar. El sitio web también incluye una página de administración que proporciona acceso a la gestión de pedidos, lo que permite a los administradores ver y procesar los pedidos de los clientes.",
   "repo": "Ver repo",
-  "live_site": "Ve la pagina en vivo!"
+  "live_site": "Ve la pagina en vivo!",
+  "language": "Es",
+  "badge": "Full-Stack Developer con Javascript",
+  "badge2": "Developer",
+  "badge3": "con",
+  "badge4": "Javascript",
+  "Marzo": "Marzo-2023",
+  "Projects": "Mis proyectos",
+  "pDescription": " Aqui puedes encontrar algunos de mis mejores proyectos",
+  "Github": "Mi perfil de github, donde puedes econtrar todos mis proyectos",
+  "mAbout": "Click aqui mas hacerca de mi"
 }

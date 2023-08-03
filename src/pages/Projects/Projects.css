@@ -95,10 +95,6 @@
   color: #fff;
 }
 
-:hover {
-  color: var(--hover-color);
-}
-
 @media screen and (max-width: 900px) {
   .card1 {
     display: grid;
