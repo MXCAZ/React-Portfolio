@@ -34,5 +34,9 @@
   "Projects": "Mis proyectos",
   "pDescription": " Aqui puedes encontrar algunos de mis mejores proyectos",
   "Github": "Mi perfil de github, donde puedes econtrar todos mis proyectos",
-  "mAbout": "Click aqui mas hacerca de mi"
+  "mAbout": "Click aqui mas hacerca de mi",
+  "mLanguage": "Click aqui para cambiar el lenguage",
+  "mCertification": "Click aqui para ver mi certification",
+  "mBenito": "Click aqui para hablar con mi perro benito",
+  "messageAbout": "Si quieres saber mas de mi click aqui"
 }

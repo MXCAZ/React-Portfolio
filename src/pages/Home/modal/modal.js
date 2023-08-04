@@ -11,8 +11,6 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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";
-
 export default function Modal({ children, state, changeState }) {
   const [isTyping, setTyping] = useState(false);
   const [messages, setMessages] = useState([
@@ -63,7 +61,7 @@ export default function Modal({ children, state, changeState }) {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + API_KEY,
+        Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
         "content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),

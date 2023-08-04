@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
+import { useTranslation } from "react-i18next";
 
 export function MessageLanguage() {
+  const { t } = useTranslation();
+
   return (
     <>
       <MessageContainer>
@@ -16,7 +19,7 @@ export function MessageLanguage() {
             marginRight: "5px",
           }}></i>
         <p style={{ color: "black", fontSize: "14px", marginLeft: "15px" }}>
-          Click here change your language here
+          {t("mLanguage")}
         </p>
       </MessageContainer>
     </>
@@ -24,6 +27,7 @@ export function MessageLanguage() {
 }
 
 export function MessageCertification() {
+  const { t } = useTranslation();
   return (
     <>
       <MessageContainerCertification>
@@ -37,13 +41,14 @@ export function MessageCertification() {
             marginRight: "5px",
           }}></i>
         <p style={{ color: "black", fontSize: "14px", marginLeft: "15px" }}>
-          Click here to see my certification
+          {t("mCertification")}
         </p>
       </MessageContainerCertification>
     </>
   );
 }
 export function MessageBenito() {
+  const { t } = useTranslation();
   return (
     <>
       <MessageContainerBenito>
@@ -57,13 +62,14 @@ export function MessageBenito() {
             marginRight: "5px",
           }}></i>
         <p style={{ color: "black", fontSize: "14px", marginLeft: "15px" }}>
-          Click here to chat with my dog benito
+          {t("mBenito")}
         </p>
       </MessageContainerBenito>
     </>
   );
 }
 export function MessageAbout() {
+  const { t } = useTranslation();
   return (
     <>
       <MessageContainerAboutMe>
@@ -77,7 +83,7 @@ export function MessageAbout() {
             marginRight: "5px",
           }}></i>
         <p style={{ color: "black", fontSize: "14px", marginLeft: "15px" }}>
-          If you want to know more about me click here
+          {t("messageAbout")}
         </p>
       </MessageContainerAboutMe>
     </>
