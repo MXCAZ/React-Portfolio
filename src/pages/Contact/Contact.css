@@ -1,4 +1,4 @@
-.containerContact {
+/* .containerContact {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(90deg, #28313b, #485461);
@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   height: auto;
-}
+} */
 .animateSquare {
   background: linear-gradient(90deg, #28313b, #485461);
   border-radius: 18px;

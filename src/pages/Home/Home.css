@@ -1,5 +1,5 @@
 .homeContainer {
-  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
   background: linear-gradient(90deg, #28313b, #485461);
   display: flex;
@@ -56,7 +56,7 @@
 
 main {
   max-width: 80%;
-  min-width: 500px;
+
   margin-top: 15%;
   margin-bottom: 15%;
   padding-bottom: 200px;
