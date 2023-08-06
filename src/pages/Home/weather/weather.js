@@ -162,12 +162,12 @@ export default function Weather() {
 
         <div className={color}>
           <img className="weatherImage" src={icon} alt="weather" />
-          <div>
-            <p style={{ fontSize: "21px", margin: 0 }}>
+          <div className="weatherText">
+            <h3 style={{ fontSize: "21px", margin: 0 }}>
               {data.name} {data.sys?.country}
-            </p>
-            <p style={{ fontSize: "50px", margin: 0 }}>
-              <i className="fa-solid fa-temperature-three-quarters"></i>{" "}
+            </h3>
+            <p style={{ margin: 0 }}>
+              <i className="fa-solid fa-temperature-three-quarters"></i>
               {parseInt(data.main?.temp)}&deg;F
             </p>
             <p style={{ fontSize: "20px" }}>{data.weather?.[0]?.description}</p>

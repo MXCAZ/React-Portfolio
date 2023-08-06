@@ -1,11 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
 }
 html {
-  /* background: linear-gradient(90deg, #28313b, #485461); */
+  background: linear-gradient(90deg, #28313b, #485461);
 }
 .cursor-dot,
 .cursor-dot-outline {
@@ -29,4 +29,4 @@ html {
   width: 40px;
   height: 40px;
   background-color: black;
-}
+} */

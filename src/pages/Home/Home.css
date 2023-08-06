@@ -169,7 +169,7 @@ main {
 }
 
 .projectText {
-  padding: 30px;
+  padding: 15px;
   background: rgba(255, 255, 255, 0.25);
   position: absolute;
   height: 100%;
@@ -232,11 +232,11 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   color: #fff;
   background-color: #222;
   border-radius: 30px;
-  width: 55%;
+  width: 50%;
   height: 100%;
 }
 
@@ -276,7 +276,6 @@ main {
 .skillsImage1 {
   width: 50px;
   height: 50px;
-  padding: 3px;
 }
 
 .forthContainer {
@@ -422,6 +421,10 @@ main {
   flex-direction: column;
   height: auto;
 }
+.benito {
+  width: 130px;
+  height: 130px;
+}
 
 @media screen and (max-width: 900px) {
   .principalContainer1 {
@@ -447,8 +450,8 @@ main {
   }
 
   .badgeImg {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 
   .badge1 h3 {
@@ -468,8 +471,16 @@ main {
     font-size: 16px;
   }
 
+  .project i {
+    font-size: 15px;
+  }
+
   .language {
     padding: 20px;
+    width: 50%;
+  }
+  .linkedin {
+    width: 50%;
   }
   .welcome {
     font-size: 30px;
@@ -482,6 +493,37 @@ main {
   }
   .fifthContainer {
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .badgeImg {
+    width: 0;
+    height: 0;
+  }
+  .badgeText h3 {
+    font-size: 16px;
+  }
+  .projectText p {
+    font-size: 14px;
+  }
+  .projectText i {
+    font-size: 0;
+  }
+  .skillsImage1 {
+    width: 35px;
+    height: 35px;
+  }
+
+  .weatherText p {
+    font-size: 24px;
+  }
+  .weatherImage {
+    height: 130px;
+    width: 130px;
+  }
+  .fifthContainer form {
+    width: 310px;
   }
 }
 

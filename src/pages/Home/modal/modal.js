@@ -86,7 +86,7 @@ export default function Modal({ children, state, changeState }) {
     <>
       {state && (
         <Overlay>
-          <ModalContainer>
+          <ModalContainer className="container">
             <HeaderContainer>
               <h3>Benito Chat</h3>
               <CloseButton onClick={() => changeState(false)}>
@@ -127,7 +127,8 @@ export default function Modal({ children, state, changeState }) {
 
 const Overlay = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   position: fixed;
   z-index: 4;
   top: 0;

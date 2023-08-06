@@ -77,7 +77,7 @@ const Home = () => {
         transition={{ duration: 1 }}
         className="homeContainer">
         <main>
-          <section className="principalContainer1">
+          <section className="principalContainer1 container">
             <div className="welcome-container">
               <h2 className="name">
                 {t("salute")} <span className="color">!!</span>
@@ -96,8 +96,8 @@ const Home = () => {
                 ASDFASADSSVXDD{" "}
               </h2>
             </div>
-            <div className="secondWelcome">
-              <div className="language">
+            <div className="secondWelcome ">
+              <div className="language ">
                 {isVisible && <MessageLanguage />}
                 <Languages />
               </div>
@@ -112,7 +112,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section className="secondMainContainer">
+          <section className="secondMainContainer container">
             {isVisible && <MessageCertification />}
             <div className="badge1">
               <a
@@ -129,7 +129,7 @@ const Home = () => {
                 <h3
                   className="letters"
                   style={{ textAlign: "initial" }}
-                  data-value={t("badge")}
+                  data-value="Full Stack"
                   onMouseOver={(e) => changeLetters(e.target)}>
                   SCDE-VBAET
                 </h3>
@@ -166,12 +166,13 @@ const Home = () => {
                   style={{ textDecoration: "none", color: "white" }}>
                   <i
                     className="fa-solid fa-diagram-project"
-                    style={{ fontSize: "30px", marginBottom: "15px" }}></i>
+                    style={{ marginBottom: "15px" }}></i>
                   <i
                     className="fa-solid fa-arrow-right-to-bracket"
                     style={{
                       position: "absolute",
-                      right: "20px",
+                      top: "10px",
+                      right: "10px",
                       fontSize: "20px",
                     }}></i>
                   <h3>{t("Projects")}</h3>
@@ -181,7 +182,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section className="thirdContainer">
+          <section className="thirdContainer container">
             <div className="githubContainer">
               <img
                 className="pug"
@@ -249,13 +250,15 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="forthContainer">
+          <section className="forthContainer container">
             <div className="tecContainer">
               <div className="chatBenito">
                 <div
                   style={{
-                    height: "170px",
-                    width: "170px",
+                    display: "flex",
+                    alignContent: "center",
+                    justifyContent: "center",
+
                     borderRadius: "50%",
                     position: "relative",
                   }}
@@ -264,9 +267,8 @@ const Home = () => {
                   <img
                     src={require("./images/benito.png")}
                     alt="pug"
+                    className="benito"
                     style={{
-                      width: "100%",
-                      height: "100%",
                       borderRadius: "50%",
                     }}
                   />
@@ -286,7 +288,7 @@ const Home = () => {
               <Weather />
             </div>
           </section>
-          <section className="fifthContainer">
+          <section className="fifthContainer container">
             <Contact />
           </section>
         </main>
